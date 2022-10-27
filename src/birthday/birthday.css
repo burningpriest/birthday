@@ -28,11 +28,10 @@ h4 {
     width: 300px;
     height: 400px;
     transform-style: preserve-3d;
-    background: #e0e1dc;
+    background: #FDE3A7;
     transform: translate(-50%, -50%) perspective(2000px);
     box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.5), 20px 0 60px rgba(0,0,0,0.5);
     transition: 1s;
-
 }
 .card:hover {
 	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
@@ -106,7 +105,17 @@ h4 {
 .card .details h4 {
 	text-align: center;
 }
+.bigger{
+    font-size: 40px;
+    color: red;
+}
 
 .text-right {
 	text-align: right;
+}
+.sign{
+    position: fixed;
+    bottom: 8px;
+    transform: rotate(-30deg);
+    right: 0;
 }

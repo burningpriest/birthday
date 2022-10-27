@@ -10,6 +10,8 @@
   font-family: 'Indie Flower', cursive !important;
   background-color: var(--bg-color);
   // background: #FDE3A7;
+  top: 0;
+  height: 100vh;
   margin: 0px;
   padding: 0px;
 }
@@ -71,6 +73,7 @@
 h1{
     width: fit-content;
     left: 50%;
+    // font-size: 3vw;
     transform: translate(-50%);
     font-family: "Source Code Pro", monospace;
     position: relative;
@@ -134,5 +137,16 @@ h1{
 }
 .small{
   font-size: 15px;
+}
+.sign{
+    position: fixed;
+    bottom: 8px;
+    transform: rotate(-20deg);
+    right: 0;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3vh;
+  }
 }
 
